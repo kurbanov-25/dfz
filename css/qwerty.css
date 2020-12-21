@@ -1,0 +1,249 @@
+@font-face{
+font-family: 'Asap';
+src: url('../media/fonts/Asap/Asap-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Droid Sans';
+src: url('../media/fonts/Droid_Sans/DroidSans.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Oleo';
+src: url('../media/fonts/Oleo_Script/OleoScript-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'AsapB';
+src: url('../media/fonts/Asap/Asap-Bold.ttf');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'Droid SansB';
+src: url('../media/fonts/Droid_Sans/DroidSans.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'OleoB';
+src: url('../media/fonts/Oleo_Script/OleoScript-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+main {
+background-color: #001A31;
+padding-bottom: 100px;
+}
+h1, h2, h3, h4 {
+font-family: 'Oleo';
+}
+
+/* Блок 1 */
+
+html, body{
+margin: 0;
+color: white;
+}
+header, footer {
+background-image: url(../media/header-background.png);
+}
+.logo {
+font-size: 22px;
+}
+.menu h4 {
+padding: 0 20px;
+font-weight: normal;
+border-left: 0.5px black solid;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+a:hover {
+color: gray;
+}
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.social {
+position: absolute;
+top: 5px;
+right: 260px;
+}
+nav.menu {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.Farrow {
+opacity: 0.7;
+position: absolute;
+right: 50px;
+top: 243px;
+background-color: #39B6F7;
+border-radius: 50%;
+}
+.Sarrow {
+opacity: 0.7;
+position: absolute;
+transform: rotate(180deg);
+left: 50px;
+top: 243px;
+background-color: #39B6F7;
+border-radius: 50%;
+}
+.arrow:hover {
+opacity: 1;
+}
+
+/* Блок 2 */
+
+.row {
+display: flex;
+flex-wrap: nowrap;
+margin: 0;
+justify-content: center;
+}
+.row > img {
+max-width: 350px;
+}
+
+/* Блок 3 */
+
+div.greeting {
+margin: auto;
+width: 40%;
+text-align: center;
+margin-top: 60px;
+}
+div.greeting p {
+font-family: 'AsapB';
+margin-top: 0;
+font-size: 22px;
+text-align: center;
+}
+div.greeting h1 {
+margin-bottom: 0;
+font-size: 64px;
+}
+
+/* Блок 4 */
+
+.description {
+margin: auto;
+background-color: #003F76;
+width: 80%;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+margin-bottom: 100px;
+margin-top: 50px;
+}
+.des {
+width: 35%;
+display: flex
+}
+.des > div > img {
+margin: 25px 3px;
+}
+.des > div > p {
+font-family: 'AsapB';
+}
+
+/* Блок 5 */
+
+div.news {
+width: 80%;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: 'Droid SansB';
+height: 550px;
+}
+
+.welcome {
+width: 30%;
+min-height: 100%;
+}
+.welcome img {
+width: 330px;
+min-height: 100%;
+}
+.welcome button {
+margin-top: 20px;
+}
+.newsinto {
+width: 30%;
+height: 100%;
+}
+.newsinto > div{
+border-left: 1px solid gray;
+border-right: 1px solid gray;
+padding-right: 20px;
+padding-left: 40px;
+}
+.reviews {
+width: 30%;
+
+}
+.reviews div {
+display: flex;
+flex-direction: row;
+align-items: center;
+vertical-align: middle;
+margin-bottom: 20px;
+}
+
+.reviews > div > img {
+margin-right: 10px;
+}
+.reviews > div > p{
+font-family: 'Droid SansB';
+}
+.reviews button {
+margin-top: 50px;
+}
+p.data {
+color: #20DBF1;
+}
+.newsinto .rl{
+margin-top: 60px;
+}
+
+/* Блок 6 */
+
+footer {
+display: flex;
+justify-content: space-around;
+height: 80px;
+height: 100%;
+}
+button {
+color: white;
+background-image: url(../media/header-background.png);
+border: 0px;
+border-radius: 2px;
+padding: 10px 25px 10px 25px;
+margin-right: 5px;
+font-size: 18px;
+}
+button.rl {
+padding: 3px;
+}
+button:hover {
+color: white;
+background-image: unset;
+background-color: black;
+}
+
+.moreInfo a{
+margin: 10px;
+}
